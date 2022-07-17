@@ -50,11 +50,7 @@
 resources/static 하위에 html파일을 생성하면 동적인 동작은 없는 단순한 html 컨텐츠를 반환해준다. 하위에 hello-static.html을 만들었다면, localhost:8080/hello-static.html로 접근할 수 있다.
 
 그리고 클라이언트가 요청시, 1순위로 컨트롤러에 hello-static.html 관련 컨트롤러 메소드가 있는지 찾는다. 없으면 2순위로 resources: static/hello-static.html을 찾는다.
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/a0624763-bc65-4575-96c8-743cb490ccfa/image.png
-"/>
-  김영한 개발자님 강의 자료
-</p>
+![](https://velog.velcdn.com/images/dodo4723/post/a0624763-bc65-4575-96c8-743cb490ccfa/image.png)
 
 ### 2)MVC와 템플릿 엔진
 
@@ -245,11 +241,7 @@ public class MemberController {
 메모리DB가 아닌 H2 DB를 사용하여 순수JDBC, JdbcTemplate, JPA, Spring JPA 순으로 DB접근 기술을 알아본다.
 
 DB는 H2로 사용한다. H2는 자바기반 RDMBS이며 저용량이고 브라우저 콘솔을 지원한다. 테스트 DB로 많이 사용된다고 한다.
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/8eb46af4-d01e-4e24-8f6a-a40ad61d775d/image.png
-"/>
-  H2 데이터베이스
-</p>
+![](https://velog.velcdn.com/images/dodo4723/post/8eb46af4-d01e-4e24-8f6a-a40ad61d775d/image.png)
 
 
 ### 1) 순수 JDBC
@@ -409,25 +401,18 @@ AOP는 내부적으로 프록시가 사용된다.
 
 ## 7. 결과물
 
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/a2020124-ea40-45fa-bcc1-036bdb97430b/image.png
-"/>
+![](https://velog.velcdn.com/images/dodo4723/post/a2020124-ea40-45fa-bcc1-036bdb97430b/image.png)
   첫 화면에서 회원 가입을 누르고
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/98cd65f2-fd72-4ce1-ae6d-39dc71b56873/image.png
-"/>
+
+![](https://velog.velcdn.com/images/dodo4723/post/98cd65f2-fd72-4ce1-ae6d-39dc71b56873/image.png)
   이름을 등록하면
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/89b55a2d-7cef-4177-aeb7-25870f94959f/image.png
-"/>
+
+![](https://velog.velcdn.com/images/dodo4723/post/89b55a2d-7cef-4177-aeb7-25870f94959f/image.png)
   회원 목록에 적용되고.
-</p>
-<p align="center" style="color:gray">
-  <img src="https://velog.velcdn.com/images/dodo4723/post/1fc63ebc-816d-4018-9e05-5a8ef060d37d/image.png
-"/>
+
+![](https://velog.velcdn.com/images/dodo4723/post/1fc63ebc-816d-4018-9e05-5a8ef060d37d/image.png)
   데이터베이스에도 적용이 잘 된다.
+
 </p>
 <br/>
 <br/>
