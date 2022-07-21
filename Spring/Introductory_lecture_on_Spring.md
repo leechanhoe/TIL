@@ -402,15 +402,19 @@ AOP는 내부적으로 프록시가 사용된다.
 ## 7. 결과물
 
 ![](https://velog.velcdn.com/images/dodo4723/post/a2020124-ea40-45fa-bcc1-036bdb97430b/image.png)
+
   첫 화면에서 회원 가입을 누르고
 
 ![](https://velog.velcdn.com/images/dodo4723/post/98cd65f2-fd72-4ce1-ae6d-39dc71b56873/image.png)
+
   이름을 등록하면
 
 ![](https://velog.velcdn.com/images/dodo4723/post/89b55a2d-7cef-4177-aeb7-25870f94959f/image.png)
+
   회원 목록에 적용되고.
 
 ![](https://velog.velcdn.com/images/dodo4723/post/1fc63ebc-816d-4018-9e05-5a8ef060d37d/image.png)
+
   데이터베이스에도 적용이 잘 된다.
 
 </p>
