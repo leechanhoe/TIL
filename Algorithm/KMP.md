@@ -28,8 +28,8 @@ ABCDE를 예로들면
    - ABCDE
    
 #### 2. 접두사 접미사 최장 공통 배열(kmp table)
-kmp table[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 접두사 == 접미사가 될 수 있는 부분 문자열 중에서 가장 긴 것의 길이다.
-(이때 prefix가 0~i 까지의 부분 문자열과 같으면 안된다.)
+kmp table[i]는 주어진 문자열의 0\~i 까지의 부분 문자열 중에서 접두사 == 접미사가 될 수 있는 부분 문자열 중에서 가장 긴 것의 길이다.
+(이때 prefix가 0\~i 까지의 부분 문자열과 같으면 안된다.)
 
 예를들어 문자열 "ABAABAB"의 pi배열은 0011232이다
 
@@ -37,11 +37,11 @@ kmp table[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 
 |:---:|:---:|:---:|
 |0|A|0|
 |1|AB|0|
-|2|<span style='background-color:#ffdce0'>A</span>B<span style='background-color:#dcffe4'>A</span>|1|
-|3|<span style='background-color:#ffdce0'>A</span>BA<span style='background-color:#dcffe4'>A</span>|1|
-|4|<span style='background-color:#ffdce0'>AB</span>A<span style='background-color:#dcffe4'>AB</span>|2|
-|5|<span style='background-color:#ffdce0'>ABA</span><span style='background-color:#dcffe4'>ABA</span>|3|
-|6|<span style='background-color:#ffdce0'>AB</span>AAB<span style='background-color:#dcffe4'>AB</span>|2|
+|2|<span style='color:#ffdce0'>A</span>B<span style='color:#dcffe4'>A</span>|1|
+|3|<span style='color:#ffdce0'>A</span>BA<span style='color:#dcffe4'>A</span>|1|
+|4|<span style='color:#ffdce0'>AB</span>A<span style='color:#dcffe4'>AB</span>|2|
+|5|<span style='color:#ffdce0'>ABA</span><span style='color:#dcffe4'>ABA</span>|3|
+|6|<span style='color:#ffdce0'>AB</span>AAB<span style='color:#dcffe4'>AB</span>|2|
 
 <br/>
 
