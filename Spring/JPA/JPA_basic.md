@@ -23,6 +23,8 @@
 
 [7. 값 타입](#7-값-타입)
 
+[8. JPQL](#8-jpql)
+
 # JPA
 
 <br>
@@ -461,3 +463,12 @@ private List<Address> addressHistory = new ArrayList<>();
 - 일대다 관계를 위한 엔티티를 만들고, 여기에서 값 타입을 사용
 - 영속성 전이(Cascade) + 고아 객체 제거를 사용해서 값 타입 컬
 렉션 처럼 사용
+
+<br>
+<br>
+<br>
+<br>
+
+## 8. JPQL
+
+[따로 정리해두었습니다.](https://github.com/leechanhoe/TIL/blob/main/Spring/JPA/JPQL.md)
