@@ -107,7 +107,7 @@ select t from Team t join fetch t.members where t.name = '팀A'
 #### 한계
 - 페치 조인 대상에는 별칭을 줄 수 없음
 - 둘 이상의 컬렉션은 페치 조인 할 수 없음
--페이징 API(`setFirstResult`, `setMaxResults`) 사용불가
+- 페이징 API(`setFirstResult`, `setMaxResults`) 사용불가
 
 <br>
 <br>
